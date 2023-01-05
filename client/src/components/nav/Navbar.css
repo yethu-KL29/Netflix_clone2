@@ -1,0 +1,7 @@
+.Navbar{
+    background-color: black; 
+    width:100vw;
+}
+.content{
+    display: flex; 
+}
