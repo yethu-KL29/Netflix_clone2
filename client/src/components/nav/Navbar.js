@@ -16,14 +16,14 @@ export const Navbar = () => {
                 </div>
                 <div>
                     <Toolbar sx={{
-                        width: "100vw"
+                        // width: "100vw"
                     }}>
                         <Tabs TabIndicatorProps={{ style: { background: 'red' } }} value={value} onChange={(e, val) => {
                             setvalue(val)
                         }} sx={{ backgroundColor: "inherit" }}>
                             <Tab sx={{
                                 color: "white",
-                               
+                                width: "1vw"
                             }} label="Home" />
 
                             <Tab LinkComponent={Link} to="/series" sx={{
