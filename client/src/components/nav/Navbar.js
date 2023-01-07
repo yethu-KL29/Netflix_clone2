@@ -10,51 +10,39 @@ export const Navbar = () => {
     const [value, setvalue] = useState()
     return (
         <div className='Navbar'>
-            <div className='content'>
+            <div className='left-content'>
                 <div className='logo'>
                     {/* <img src={Logo}></img> */}
                 </div>
                 <div>
-                    <Toolbar sx={{
-                        // width: "100vw"
-                    }}>
-                        <Tabs TabIndicatorProps={{ style: { background: 'red' } }} value={value} onChange={(e, val) => {
-                            setvalue(val)
-                        }} sx={{ backgroundColor: "inherit" }}>
-                            <Tab sx={{
-                                color: "white",
-                                width: "1vw"
-                            }} label="Home" />
+                   
+                        <Tabs>
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                       
 
-                            <Tab LinkComponent={Link} to="/series" sx={{
-                                color: "white",
-                                
-                            }} label="series" />
-
-                            <Tab LinkComponent={Link} to="/movies" sx={{
-                                color: "white",
-                               
-                            }} label="Movies" />
-
-                            <Tab sx={{
-                                color: "white",
-                               
-                            }} label="popular" />
-                            <Tab sx={{
-                                color: "white",
-                               
-                            }} label="My List" />
-
-                        </Tabs>
-                    </Toolbar>
+                     </Tabs>
+                    
                 </div>
 
             </div>
-            <div className='logout'>
+            <div className='right-content'>
 
                 <IconButton sx={{ color: 'red', width: '3vw' }}>
                     <PowerSettingsNewIcon />
                 </IconButton>
+              
             </div>
 
 
