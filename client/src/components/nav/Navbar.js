@@ -24,12 +24,7 @@ export const Navbar = () => {
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        
                        
 
                      </Tabs>
