@@ -17,8 +17,7 @@ export const Navbar = () => {
                 <div>
                    
                         <Tabs>
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
-                        <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
