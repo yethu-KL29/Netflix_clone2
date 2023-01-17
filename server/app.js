@@ -1,5 +1,5 @@
 import {BrowserRouter,Routes,Route,Redirect } from 'react-router-dom';
-import Login from './pages/Login';
+
 import Signup from './pages/Signup';
 import Netflix from './pages/Netflix';
 import "../src/index.css"
