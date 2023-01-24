@@ -12,7 +12,7 @@ export const Navbar = () => {
         <div className='Navbar'>
             <div className='left-content'>
                 <div className='logo'>
-                    {/* <img src={Logo}></img> */}
+                    <img src={Logo}></img>
                 </div>
                 <div>
                    
@@ -21,7 +21,9 @@ export const Navbar = () => {
                        
                        
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Movies" sx={{color:"white",width: '3vw'}} />
                         <Tab label="Home" sx={{color:"white",width: '3vw'}} />
+                        <Tab label="Movies" sx={{color:"white",width: '3vw'}} />
                         
                        
 
