@@ -4,7 +4,6 @@ import Logo from "../nav/Logo.png"
 import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
-import "./Navbar.css"
 
 export const Navbar = () => {
     const [value, setvalue] = useState()
