@@ -2,7 +2,6 @@ import React from 'react'
 import { Button, Input, TextField, Typography, InputLabel, Tab, Tabs, Toolbar, AppBar, IconButton } from '@mui/material'
 import Logo from "../nav/Logo.png"
 import PowerSettingsNewIcon from '@mui/icons-material/PowerSettingsNew';
-import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 
 export const Navbar = () => {
