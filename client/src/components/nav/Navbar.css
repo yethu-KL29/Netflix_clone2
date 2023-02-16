@@ -30,3 +30,10 @@ img{
     height: 10vh;
     background-color: black;
 }
+ .options{
+    display: none;
+}
+.pro-icon:hover + .options {
+    display: flex;
+    flex-direction: column;
+}
